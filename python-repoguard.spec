@@ -19,6 +19,7 @@ Group:		Development/Version Control
 Source0:	http://repoguard.tigris.org/files/documents/6497/48735/repoguard-%{version}.tar
 # Source0-md5:	b7036d436e819576917daa3bca0f2482
 URL:		http://repoguard.tigris.org/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	rpm-pythonprov
 %if %{with python2}
 BuildRequires:	python-devel
